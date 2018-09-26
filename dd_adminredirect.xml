@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_DD_ADMINREDIRECT</name>
+    <version>1.0.0.0</version>
+    <creationDate>26.09.2018</creationDate>
+    <author>HR-IT-Solutions Florian Häusler</author>
+    <authorEmail>info@hr-it-solutions.com</authorEmail>
+    <authorUrl>https://www.hr-it-solutions.com</authorUrl>
+    <copyright>Copyright (C) 2018 HR-IT-Solutions GmbH</copyright>
+    <license>GNU/GPLv2 only</license>
+    <description>PLG_SYSTEM_DD_ADMINREDIRECT_XML_DESCRIPTION</description>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_adminredirect.sys.ini</language>
+    </languages>
+    <files>
+        <filename plugin="dd_adminredirect">dd_adminredirect.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="url"
+                        type="text"
+                        label="PLG_SYSTEM_DD_ADMINREDIRECT_URL_LABEL"
+                        description="PLG_SYSTEM_DD_ADMINREDIRECT_URL_DESC"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
