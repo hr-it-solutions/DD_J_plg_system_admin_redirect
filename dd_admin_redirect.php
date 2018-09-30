@@ -1,6 +1,6 @@
 <?php
 /**
- * @package    DD_AdminRedirect
+ * @package    DD_Admin_Redirect
  *
  * @author     HR-IT-Solutions Florian Häusler <info@hr-it-solutions.com>
  * @copyright  Copyright (C) 2018 HR-IT-Solutions GmbH
@@ -15,7 +15,7 @@ jimport('joomla.access.access');
 /**
  * plgSystemDD_AdminRedirect
  */
-class plgSystemDD_AdminRedirect extends JPlugin
+class plgSystemDD_Admin_Redirect extends JPlugin
 {
 	protected $app;
 
