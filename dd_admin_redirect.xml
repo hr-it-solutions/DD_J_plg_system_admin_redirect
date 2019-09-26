@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.5" type="plugin" group="system" method="upgrade">
     <name>PLG_SYSTEM_DD_ADMIN_REDIRECT</name>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <creationDate>26.09.2018</creationDate>
     <author>HR-IT-Solutions Florian Häusler</author>
     <authorEmail>info@hr-it-solutions.com</authorEmail>
@@ -15,6 +15,11 @@
     <files>
         <filename plugin="dd_admin_redirect">dd_admin_redirect.php</filename>
     </files>
+    <updateservers>
+        <server type="collection" priority="1" name="HR IT-Solutions Updates">
+            http://www.hr-it-solutions.com/jextensions/update.xml
+        </server>
+    </updateservers>
     <config>
         <fields name="params">
             <fieldset name="basic">
