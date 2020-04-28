@@ -12,6 +12,7 @@
     <languages>
         <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_admin_redirect.sys.ini</language>
         <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_dd_admin_redirect.sys.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_system_dd_admin_redirect.sys.ini</language>
     </languages>
     <files>
         <filename plugin="dd_admin_redirect">dd_admin_redirect.php</filename>
